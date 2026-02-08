@@ -1,41 +1,284 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chính Sách Bảo Mật - Privacy Policy</title>
+    <title>Privacy Policy - File Zipper</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
             color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
         }
-        h2 {
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
             color: #666;
+            font-size: 0.95em;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 1.3em;
             margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul,
+        ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .highlight {
+            background: #f0f4ff;
+            padding: 20px 25px;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+
+        .contact-info h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 40px 25px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 25px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            ul,
+            ol {
+                margin-left: 20px;
+            }
         }
     </style>
 </head>
+
 <body>
-    <h1>Chính Sách Bảo Mật / Privacy Policy</h1>
-    
-    <p><strong>Ngày cập nhật:</strong> 08/02/2026</p>
-    
-    <h2>1. Thông Tin Thu Thập</h2>
-    <p>Chúng tôi thu thập các thông tin sau...</p>
-    
-    <h2>2. Sử Dụng Thông Tin</h2>
-    <p>Thông tin được sử dụng để...</p>
-    
-    <h2>3. Bảo Mật Thông Tin</h2>
-    <p>Chúng tôi cam kết bảo mật thông tin...</p>
-    
-    <h2>4. Liên Hệ</h2>
-    <p>Email: your-email@example.com</p>
+    <div class="container">
+        <div class="header">
+            <h1>📦 Privacy Policy</h1>
+            <p>File Zipper - Compress & Extract Files</p>
+        </div>
+
+        <div class="content">
+            <div class="last-updated">
+                <strong>Last Updated:</strong> February 8, 2026
+            </div>
+
+            <div class="highlight">
+                <strong>Your Privacy Matters</strong><br>
+                File Zipper is committed to protecting your privacy. This app is designed with a privacy-first approach
+                - all file operations happen locally on your device, and we do not collect, store, or transmit any of
+                your personal data or files to external servers.
+            </div>
+
+            <h2>1. Information We Collect</h2>
+            <p><strong>File Zipper does NOT collect any personal information.</strong> Specifically:</p>
+            <ul>
+                <li>We do not collect usernames, email addresses, or phone numbers</li>
+                <li>We do not collect device identifiers or location data</li>
+                <li>We do not track your browsing history or app usage</li>
+                <li>We do not access your contacts, photos (except files you explicitly select), or other personal
+                    content</li>
+            </ul>
+
+            <h2>2. How the App Works</h2>
+            <h3>2.1 Local Processing</h3>
+            <p>All file compression and extraction operations are performed entirely on your device. Your files never
+                leave your device and are not uploaded to any servers.</p>
+
+            <h3>2.2 Permissions Required</h3>
+            <p>File Zipper requests the following permissions to function properly:</p>
+            <ul>
+                <li><strong>Storage Access:</strong> To read files you want to compress and to save extracted or
+                    compressed files to your device</li>
+                <li><strong>Notifications:</strong> To inform you when compression or extraction tasks are complete
+                    (especially for large files processed in background)</li>
+            </ul>
+            <p>These permissions are used solely for the app's core functionality and nothing else.</p>
+
+            <h2>3. Data Storage</h2>
+            <h3>3.1 Local Storage Only</h3>
+            <p>The app stores the following information <strong>locally on your device only:</strong></p>
+            <ul>
+                <li><strong>App Preferences:</strong> Your chosen language, theme (light/dark mode), and other settings
+                </li>
+                <li><strong>Operation History:</strong> A local record of compression and extraction operations for your
+                    convenience (file names, dates, sizes)</li>
+                <li><strong>Cache:</strong> Temporary files created during compression/extraction processes</li>
+            </ul>
+            <p>All this data remains on your device and can be cleared at any time through the app's settings.</p>
+
+            <h3>3.2 No Cloud Storage</h3>
+            <p>File Zipper does not use any cloud storage services. Your files and operation history are never
+                synchronized or backed up to external servers.</p>
+
+            <h2>4. Third-Party Services</h2>
+            <p><strong>File Zipper does not integrate with any third-party analytics, advertising, or tracking
+                    services.</strong></p>
+            <p>The app operates completely offline and does not make any network requests, except for:</p>
+            <ul>
+                <li>Checking for app updates (if you have enabled this in your device's app store settings)</li>
+            </ul>
+
+            <h2>5. Children's Privacy</h2>
+            <p>File Zipper does not knowingly collect personal information from anyone, including children under the age
+                of 13. Since we don't collect any data at all, the app is safe for users of all ages.</p>
+
+            <h2>6. Your Data Rights</h2>
+            <p>Since all data is stored locally on your device, you have full control:</p>
+            <ul>
+                <li><strong>Access:</strong> View your operation history and settings within the app</li>
+                <li><strong>Delete:</strong> Clear your history and cache through Settings → Storage → Clear
+                    History/Cache</li>
+                <li><strong>Export:</strong> Your compressed files are stored in your chosen location on your device
+                </li>
+                <li><strong>Complete Removal:</strong> Uninstalling the app removes all locally stored data</li>
+            </ul>
+
+            <h2>7. Security</h2>
+            <p>We take reasonable measures to protect your data:</p>
+            <ul>
+                <li>All data is stored locally using Android/iOS secure storage mechanisms</li>
+                <li>No data transmission means no risk of interception</li>
+                <li>File operations use industry-standard compression libraries (Archive package)</li>
+            </ul>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update this privacy policy from time to time. Any changes will be reflected by updating the "Last
+                Updated" date at the top of this policy. We will notify you of any material changes through the app.</p>
+            <p>Continued use of File Zipper after changes means you accept the updated privacy policy.</p>
+
+            <h2>9. Open Source</h2>
+            <p>File Zipper is built using open-source libraries and follows best practices for user privacy. The app's
+                architecture ensures that your data never leaves your device.</p>
+
+            <h2>10. Compliance</h2>
+            <p>This privacy policy is designed to comply with:</p>
+            <ul>
+                <li>General Data Protection Regulation (GDPR)</li>
+                <li>California Consumer Privacy Act (CCPA)</li>
+                <li>Children's Online Privacy Protection Act (COPPA)</li>
+                <li>Other applicable privacy laws</li>
+            </ul>
+
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>If you have any questions, concerns, or requests regarding this privacy policy or our practices,
+                    please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:quang.kasumi@gmail.com">support@filezipper.app</a></p>
+                <!-- <p>We will respond to your inquiry within 48 hours.</p> -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>File Zipper</strong> - Privacy-First File Compression</p>
+            <p>© 2026 File Zipper. All rights reserved.</p>
+        </div>
+    </div>
 </body>
+
 </html>

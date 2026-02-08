@@ -16,141 +16,79 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.8;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f5f5f5;
             padding: 20px;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 60px 40px;
-            text-align: center;
-        }
-
-        .header h1 {
-            font-size: 2.5em;
+        h1 {
+            color: #667eea;
+            font-size: 2em;
             margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        .header p {
-            font-size: 1.1em;
-            opacity: 0.95;
-        }
-
-        .content {
-            padding: 50px 40px;
-        }
-
-        .last-updated {
-            background: #f8f9fa;
-            padding: 15px 25px;
-            border-radius: 10px;
-            margin-bottom: 40px;
-            text-align: center;
-            color: #666;
-            font-size: 0.95em;
         }
 
         h2 {
             color: #667eea;
-            font-size: 1.8em;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-weight: 600;
-        }
-
-        h3 {
-            color: #555;
-            font-size: 1.3em;
+            font-size: 1.5em;
             margin-top: 30px;
             margin-bottom: 15px;
-            font-weight: 600;
         }
 
         p {
             margin-bottom: 15px;
-            color: #555;
+            text-align: justify;
         }
 
-        ul,
-        ol {
+        ul {
             margin-left: 30px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         li {
-            margin-bottom: 10px;
-            color: #555;
+            margin-bottom: 8px;
         }
 
-        .highlight {
-            background: #f0f4ff;
-            padding: 20px 25px;
-            border-left: 4px solid #667eea;
-            border-radius: 8px;
-            margin: 25px 0;
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
         }
 
-        .contact-info {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
-            margin-top: 40px;
+        .contact {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
         }
 
-        .contact-info h3 {
-            color: white;
-            margin-top: 0;
+        a {
+            color: #667eea;
+            text-decoration: none;
         }
 
-        .contact-info a {
-            color: white;
+        a:hover {
             text-decoration: underline;
         }
 
-        .footer {
-            background: #f8f9fa;
-            padding: 30px 40px;
-            text-align: center;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
         @media (max-width: 768px) {
-            body {
-                padding: 10px;
+            .container {
+                padding: 20px;
             }
 
-            .header {
-                padding: 40px 25px;
-            }
-
-            .header h1 {
-                font-size: 2em;
-            }
-
-            .content {
-                padding: 30px 25px;
-            }
-
-            h2 {
+            h1 {
                 font-size: 1.5em;
             }
 
-            ul,
-            ol {
-                margin-left: 20px;
+            h2 {
+                font-size: 1.2em;
             }
         }
     </style>
@@ -158,125 +96,162 @@
 
 <body>
     <div class="container">
-        <div class="header">
-            <h1>📦 Privacy Policy</h1>
-            <p>File Zipper - Compress & Extract Files</p>
-        </div>
+        <h1>Privacy Policy</h1>
+        <p class="last-updated"><strong>Last updated:</strong> February 8, 2026</p>
 
-        <div class="content">
-            <div class="last-updated">
-                <strong>Last Updated:</strong> February 8, 2026
-            </div>
+        <p>We respect the privacy of our users. This Privacy Policy explains how we collect, use, disclose, and
+            safeguard your information when you visit our mobile application (the "Application"). Please read this
+            Privacy Policy carefully. <strong>IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT
+                ACCESS THE APPLICATION.</strong></p>
 
-            <div class="highlight">
-                <strong>Your Privacy Matters</strong><br>
-                File Zipper is committed to protecting your privacy. This app is designed with a privacy-first approach
-                - all file operations happen locally on your device, and we do not collect, store, or transmit any of
-                your personal data or files to external servers.
-            </div>
+        <p>We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you
+            about any changes by updating the "Last updated" date of this Privacy Policy. You are encouraged to
+            periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made
+            aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy
+            by your continued use of the Application after the date such revised Privacy Policy is posted.</p>
 
-            <h2>1. Information We Collect</h2>
-            <p><strong>File Zipper does NOT collect any personal information.</strong> Specifically:</p>
-            <ul>
-                <li>We do not collect usernames, email addresses, or phone numbers</li>
-                <li>We do not collect device identifiers or location data</li>
-                <li>We do not track your browsing history or app usage</li>
-                <li>We do not access your contacts, photos (except files you explicitly select), or other personal
-                    content</li>
-            </ul>
+        <p>This Privacy Policy does not apply to the third-party online/mobile store from which you install the
+            Application or make payments. We are not responsible for any of the data collected by any such third party.
+        </p>
 
-            <h2>2. How the App Works</h2>
-            <h3>2.1 Local Processing</h3>
-            <p>All file compression and extraction operations are performed entirely on your device. Your files never
-                leave your device and are not uploaded to any servers.</p>
+        <h2>Information Collection and Use</h2>
+        <p><strong>File Zipper does NOT collect any personally identifiable information.</strong> The app is designed to
+            work entirely offline and all file operations are performed locally on your device.</p>
 
-            <h3>2.2 Permissions Required</h3>
-            <p>File Zipper requests the following permissions to function properly:</p>
-            <ul>
-                <li><strong>Storage Access:</strong> To read files you want to compress and to save extracted or
-                    compressed files to your device</li>
-                <li><strong>Notifications:</strong> To inform you when compression or extraction tasks are complete
-                    (especially for large files processed in background)</li>
-            </ul>
-            <p>These permissions are used solely for the app's core functionality and nothing else.</p>
+        <p>The app stores the following information <strong>locally on your device only</strong>:</p>
+        <ul>
+            <li>Your app preferences (language selection, theme mode)</li>
+            <li>Operation history (list of compressed/extracted files for your convenience)</li>
+            <li>Temporary cache files created during compression/extraction processes</li>
+        </ul>
 
-            <h2>3. Data Storage</h2>
-            <h3>3.1 Local Storage Only</h3>
-            <p>The app stores the following information <strong>locally on your device only:</strong></p>
-            <ul>
-                <li><strong>App Preferences:</strong> Your chosen language, theme (light/dark mode), and other settings
-                </li>
-                <li><strong>Operation History:</strong> A local record of compression and extraction operations for your
-                    convenience (file names, dates, sizes)</li>
-                <li><strong>Cache:</strong> Temporary files created during compression/extraction processes</li>
-            </ul>
-            <p>All this data remains on your device and can be cleared at any time through the app's settings.</p>
+        <p><strong>Your files and personal content never leave your device and are not transmitted to any
+                servers.</strong></p>
 
-            <h3>3.2 No Cloud Storage</h3>
-            <p>File Zipper does not use any cloud storage services. Your files and operation history are never
-                synchronized or backed up to external servers.</p>
+        <h2>Third-Party Services</h2>
+        <p>The app does use the following third-party services that may collect information used to identify you:</p>
+        <ul>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Analytics</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Crashlytics</a></li>
+        </ul>
 
-            <h2>4. Third-Party Services</h2>
-            <p><strong>File Zipper does not integrate with any third-party analytics, advertising, or tracking
-                    services.</strong></p>
-            <p>The app operates completely offline and does not make any network requests, except for:</p>
-            <ul>
-                <li>Checking for app updates (if you have enabled this in your device's app store settings)</li>
-            </ul>
+        <p><strong>What data does Firebase collect?</strong></p>
+        <ul>
+            <li>Device information (model, OS version, screen size)</li>
+            <li>App usage data (screens viewed, features used, session duration)</li>
+            <li>Crash reports and error logs (to help us fix bugs)</li>
+            <li>Anonymous analytics data (no personally identifiable information)</li>
+        </ul>
 
-            <h2>5. Children's Privacy</h2>
-            <p>File Zipper does not knowingly collect personal information from anyone, including children under the age
-                of 13. Since we don't collect any data at all, the app is safe for users of all ages.</p>
+        <p><strong>Important:</strong> Your files and personal content are NEVER sent to Firebase. Only anonymous usage
+            statistics and crash data are collected to improve app quality and fix bugs.</p>
 
-            <h2>6. Your Data Rights</h2>
-            <p>Since all data is stored locally on your device, you have full control:</p>
-            <ul>
-                <li><strong>Access:</strong> View your operation history and settings within the app</li>
-                <li><strong>Delete:</strong> Clear your history and cache through Settings → Storage → Clear
-                    History/Cache</li>
-                <li><strong>Export:</strong> Your compressed files are stored in your chosen location on your device
-                </li>
-                <li><strong>Complete Removal:</strong> Uninstalling the app removes all locally stored data</li>
-            </ul>
+        <p>File Zipper does NOT use:</p>
+        <ul>
+            <li>Advertising services (no ads)</li>
+            <li>Location tracking</li>
+            <li>Access to contacts, camera, or microphone</li>
+        </ul>
 
-            <h2>7. Security</h2>
-            <p>We take reasonable measures to protect your data:</p>
-            <ul>
-                <li>All data is stored locally using Android/iOS secure storage mechanisms</li>
-                <li>No data transmission means no risk of interception</li>
-                <li>File operations use industry-standard compression libraries (Archive package)</li>
-            </ul>
+        <h2>Permissions</h2>
+        <p>The app requires the following permissions to function:</p>
+        <ul>
+            <li><strong>Storage Access:</strong> To read files you want to compress/extract and to save processed files
+                to your device</li>
+            <li><strong>Notifications:</strong> To inform you when compression or extraction tasks are complete</li>
+        </ul>
 
-            <h2>8. Changes to This Privacy Policy</h2>
-            <p>We may update this privacy policy from time to time. Any changes will be reflected by updating the "Last
-                Updated" date at the top of this policy. We will notify you of any material changes through the app.</p>
-            <p>Continued use of File Zipper after changes means you accept the updated privacy policy.</p>
+        <p>These permissions are used solely for the app's core functionality. We do not access, collect, or transmit
+            your files or any personal data.</p>
 
-            <h2>9. Open Source</h2>
-            <p>File Zipper is built using open-source libraries and follows best practices for user privacy. The app's
-                architecture ensures that your data never leaves your device.</p>
+        <h2>Log Data</h2>
+        <p>We want to inform you that whenever you use our Application, in case of an error in the app, we collect data
+            and information through Firebase Crashlytics called Log Data. This Log Data may include information such as
+            your device Internet Protocol ("IP") address, device name, operating system version, the configuration of
+            the app when utilizing our Service, the time and date of your use of the Service, crash logs, and other
+            diagnostic information.</p>
 
-            <h2>10. Compliance</h2>
-            <p>This privacy policy is designed to comply with:</p>
-            <ul>
-                <li>General Data Protection Regulation (GDPR)</li>
-                <li>California Consumer Privacy Act (CCPA)</li>
-                <li>Children's Online Privacy Protection Act (COPPA)</li>
-                <li>Other applicable privacy laws</li>
-            </ul>
+        <p>This data is collected automatically by Firebase Crashlytics and helps us:</p>
+        <ul>
+            <li>Identify and fix bugs and crashes</li>
+            <li>Improve app stability and performance</li>
+            <li>Understand which devices and OS versions have issues</li>
+        </ul>
 
-            <div class="contact-info">
-                <h3>Contact Us</h3>
-                <p>If you have any questions, concerns, or requests regarding this privacy policy or our practices,
-                    please contact us:</p>
-                <p><strong>Email:</strong> <a href="mailto:quang.kasumi@gmail.com">support@filezipper.app</a></p>
-                <!-- <p>We will respond to your inquiry within 48 hours.</p> -->
-            </div>
-        </div>
+        <p><strong>Important:</strong> Crash logs do NOT contain your files or personal content. They only contain
+            technical information about what went wrong in the app.</p>
 
-        <div class="footer">
-            <p><strong>File Zipper</strong> - Privacy-First File Compression</p>
-            <p>© 2026 File Zipper. All rights reserved.</p>
+        <h2>Cookies</h2>
+        <p>This Application does not use cookies explicitly. However, Firebase Analytics may use cookies and similar
+            tracking technologies to collect usage data and improve their services. You have the option to limit data
+            collection through your device settings.</p>
+
+        <h2>Service Providers</h2>
+        <p>We employ the following third-party companies and services to facilitate our Application:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> For app distribution and updates</li>
+            <li><strong>Firebase Analytics:</strong> To understand how users interact with the app and improve user
+                experience</li>
+            <li><strong>Firebase Crashlytics:</strong> To monitor app crashes and errors so we can fix them quickly</li>
+        </ul>
+
+        <p>We want to inform users that these third parties have access to limited, anonymized information about your
+            device and app usage. The reason is to perform the tasks assigned to them on our behalf. However, they are
+            obligated not to disclose or use the information for any other purpose.</p>
+
+        <p><strong>These services do NOT have access to your files or personal content.</strong> Only technical and
+            usage data is shared.</p>
+
+        <h2>Security</h2>
+        <p>We value your trust in using our Application. Since all data processing happens locally on your device and no
+            personal files are transmitted to external servers, your files and information remain secure on your device.
+        </p>
+
+        <p>However, please remember that no method of storage or transmission is 100% secure. We recommend you:</p>
+        <ul>
+            <li>Keep your device secure with a password/PIN</li>
+            <li>Only download the app from official app stores</li>
+            <li>Keep your operating system and the app updated</li>
+        </ul>
+
+        <h2>Links to Other Sites</h2>
+        <p>This Application may contain links to other sites (such as this privacy policy page). If you click on a
+            third-party link, you will be directed to that site. Note that these external sites are not operated by us.
+            Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over
+            and assume no responsibility for the content, privacy policies, or practices of any third-party sites or
+            services.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>This Application does not knowingly collect personally identifiable information from children under the age
+            of 13. We do not knowingly collect personally identifiable information from children under 13. In the case
+            we discover that a child under 13 has provided personal information, we immediately delete this from our
+            servers. If you are a parent or guardian and you are aware that your child has provided us with personal
+            information, please contact us so that we will be able to take necessary actions.</p>
+
+        <h2>Your Data Rights</h2>
+        <p>Since all your files and personal data are stored locally on your device, you have full control:</p>
+        <ul>
+            <li><strong>Access:</strong> View your operation history and settings within the app</li>
+            <li><strong>Delete:</strong> Clear your history and cache through Settings → Storage → Clear History/Cache
+            </li>
+            <li><strong>Export:</strong> Your compressed files are stored in your chosen location on your device</li>
+            <li><strong>Complete Removal:</strong> Uninstalling the app removes all locally stored data</li>
+            <li><strong>Opt-out Analytics:</strong> You can limit data collection by disabling analytics in device
+                settings</li>
+        </ul>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically
+            for any changes. We will notify you of any changes by posting the new Privacy Policy on this page and
+            updating the "Last updated" date.</p>
+
+        <p>These changes are effective immediately after they are posted on this page.</p>
+
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us:</p>
+            <p><strong>Email:</strong> <a href="mailto:quang.kasumi@gmail.com">quang.kasumi@gmail.com</a></p>
         </div>
     </div>
 </body>

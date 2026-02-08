@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Bảo Mật - Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chính Sách Bảo Mật / Privacy Policy</h1>
+    
+    <p><strong>Ngày cập nhật:</strong> 08/02/2026</p>
+    
+    <h2>1. Thông Tin Thu Thập</h2>
+    <p>Chúng tôi thu thập các thông tin sau...</p>
+    
+    <h2>2. Sử Dụng Thông Tin</h2>
+    <p>Thông tin được sử dụng để...</p>
+    
+    <h2>3. Bảo Mật Thông Tin</h2>
+    <p>Chúng tôi cam kết bảo mật thông tin...</p>
+    
+    <h2>4. Liên Hệ</h2>
+    <p>Email: your-email@example.com</p>
+</body>
+</html>
